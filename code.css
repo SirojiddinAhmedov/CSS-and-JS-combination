@@ -1,0 +1,53 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: green;
+    height: 100vh;
+  
+    
+}
+.fa,.fab {
+    font-size: 50px;
+    cursor: pointer;
+    color: #868686;
+    display: block;
+    z-index: 1;
+    transition: all .6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+nav{
+    width: 400px;
+    height: 53px;
+    background-color: #fff;
+    overflow: hidden;
+    animation-duration: .4s;
+    animation-delay: 0s;
+    color: #fff;
+    animation-timing-function: linear;
+    transition: all .4s linear;
+    transform-origin: bottom;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+
+}
+ul li{
+    width: 100%;
+    height:80px;
+}
+a{
+    text-decoration: none;
+    border: solid 1px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    z-index: 0;
+    cursor: pointer;
+}
+
